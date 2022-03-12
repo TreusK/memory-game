@@ -1,0 +1,10 @@
+*, html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Yusei';
+    src: local('Yusei'), url(./font/YuseiMagic.ttf) format('truetype');
+}
