@@ -16,10 +16,9 @@ import img14 from '../imgs/14.jpg';
 
 const arrOfImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14]
 
-function Card({number}) {
+function Card({number, handleClick}) {
     return (
-        <div>
-            Hi I'm a {number}
+        <div className='CardDiv' onClick={() => handleClick(number)}>
             <img src={arrOfImages[number-1]} />
         </div>
     )

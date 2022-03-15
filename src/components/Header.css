@@ -3,7 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(224, 44, 83);
+    background-color: #F73535;
+    color: #f0f0f0;
+    padding-top: 30px;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
 
 #pointsContainer {
@@ -11,6 +14,8 @@
    align-self: flex-end;
    justify-content: space-around;
    margin-top: auto;
-   background-color: antiquewhite;
+   border-top-left-radius: 10px;
+   background-color: #aaaaad;
    width: 200px;
+   padding: 10px 0 ;
 }

@@ -1,4 +1,7 @@
 #Main {
-    background-color: aqua;
+    background-color: #aaaaad;
     min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

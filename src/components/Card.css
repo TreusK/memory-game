@@ -1,3 +1,20 @@
 div {
     font-family: Yusei, serif;
 }
+
+.CardDiv {
+    border-bottom: solid 2px black;
+    border-top: solid 4px red;
+    border-radius: 15px;
+    width: 150px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.CardDiv img {
+    width: 80%;
+}

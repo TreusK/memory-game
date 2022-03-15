@@ -1,0 +1,42 @@
+#GameOverScreen {
+    position: absolute;
+    background-color: rgba(185, 46, 46, 0.472);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageContainer {
+    width: 400px;
+    height: 300px;
+    background-color: aliceblue;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    user-select: none;
+}
+
+#innerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn {
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: aqua;
+}
+
+#btn:hover {
+    border-color: red;
+    transition: border-color 0.5s;
+}
