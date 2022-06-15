@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F73535;
-    color: #f0f0f0;
+    background-color: #BC002D;
+    color: #ffffff;
     padding-top: 30px;
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
@@ -14,8 +14,8 @@
    align-self: flex-end;
    justify-content: space-around;
    margin-top: auto;
-   border-top-left-radius: 10px;
-   background-color: #aaaaad;
+   border-top-left-radius: 2px;
+   background-color: #B89081;
    width: 200px;
    padding: 10px 0 ;
 }

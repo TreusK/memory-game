@@ -5,6 +5,12 @@
 }
 
 @font-face {
-    font-family: 'Yusei';
-    src: local('Yusei'), url(./font/YuseiMagic.ttf) format('truetype');
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(./font/Montserrat-r.ttf) format('truetype');
+}
+
+.rulesContainer {
+    background-color: #B89081;
+    padding: 50px;
+    text-align: center;
 }

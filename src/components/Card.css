@@ -1,5 +1,5 @@
 div {
-    font-family: Yusei, serif;
+    font-family: Montserrat, serif;
 }
 
 .CardDiv {
@@ -13,8 +13,14 @@ div {
     justify-content: center;
     background-color: white;
     margin: 10px;
+    transition: border 0.5s ease;
 }
 
 .CardDiv img {
     width: 80%;
+}
+
+.CardDiv:hover {
+    border-bottom: solid 2px red;
+    border-top: solid 4px black;
 }

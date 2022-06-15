@@ -4,7 +4,7 @@ function Header({score}) {
     return (
         <div id='Header'>
             <h1>Japanese Memory Game</h1>
-            <h3>日本語 記憶 ゲーム</h3>
+            <h2>日本語 記憶 ゲーム</h2>
             <div id='pointsContainer'>
                 <h4>Score: {score.current}</h4>
                 <h4>Best Score: {score.best}</h4>

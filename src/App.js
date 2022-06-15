@@ -64,6 +64,10 @@ function App() {
     <div className="App">
       {gameIsOver && <GameOverScreen score={score} resetStuff={resetStuff}/>}
       <Header score={score}/>
+      <div className='rulesContainer'>
+        <h3>Rules</h3>
+        <p>Try and click on each card only once. The maximum possible score is 14.</p>
+      </div>
       <Main shuffledArr={arrToShuffle} handleClick={handleClick}/>
     </div>
   );
